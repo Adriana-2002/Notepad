@@ -12,3 +12,6 @@ C:\Users\User\source\repos\Adriana0.3\Adriana0.3\obj\Debug\Adriana0.3.pdb
 C:\Users\Адриана\Desktop\Новая папка (2)\Adriana0.3\bin\Debug\Adriana0.3.exe.config
 C:\Users\Адриана\Desktop\Новая папка (2)\Adriana0.3\obj\Debug\Adriana0.3.exe
 C:\Users\Адриана\Desktop\Новая папка (2)\Adriana0.3\obj\Debug\Adriana0.3.pdb
+C:\Users\Адриана\Documents\MyPro\Not\Adriana0.3\bin\Debug\Adriana0.3.exe.config
+C:\Users\Адриана\Documents\MyPro\Not\Adriana0.3\obj\Debug\Adriana0.3.exe
+C:\Users\Адриана\Documents\MyPro\Not\Adriana0.3\obj\Debug\Adriana0.3.pdb

@@ -60,6 +60,9 @@ namespace Adriana0._3
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,35 +104,35 @@ namespace Adriana0._3
             // mnuNew
             // 
             this.mnuNew.Name = "mnuNew";
-            this.mnuNew.Size = new System.Drawing.Size(181, 26);
+            this.mnuNew.Size = new System.Drawing.Size(135, 26);
             this.mnuNew.Text = "&New";
             this.mnuNew.Click += new System.EventHandler(this.mnuNew_Click);
             // 
             // mnuOpen
             // 
             this.mnuOpen.Name = "mnuOpen";
-            this.mnuOpen.Size = new System.Drawing.Size(181, 26);
+            this.mnuOpen.Size = new System.Drawing.Size(135, 26);
             this.mnuOpen.Text = "&Open";
             this.mnuOpen.Click += new System.EventHandler(this.mnuOpen_Click);
             // 
             // mnuSave
             // 
             this.mnuSave.Name = "mnuSave";
-            this.mnuSave.Size = new System.Drawing.Size(181, 26);
+            this.mnuSave.Size = new System.Drawing.Size(135, 26);
             this.mnuSave.Text = "&Save";
             this.mnuSave.Click += new System.EventHandler(this.mnuSave_Click);
             // 
             // mnuSaveAs
             // 
             this.mnuSaveAs.Name = "mnuSaveAs";
-            this.mnuSaveAs.Size = new System.Drawing.Size(181, 26);
+            this.mnuSaveAs.Size = new System.Drawing.Size(135, 26);
             this.mnuSaveAs.Text = "Save &As";
             this.mnuSaveAs.Click += new System.EventHandler(this.mnuSaveAs_Click);
             // 
             // mnuExit
             // 
             this.mnuExit.Name = "mnuExit";
-            this.mnuExit.Size = new System.Drawing.Size(181, 26);
+            this.mnuExit.Size = new System.Drawing.Size(135, 26);
             this.mnuExit.Text = "&Exit";
             this.mnuExit.Click += new System.EventHandler(this.mnuExit_Click);
             // 
@@ -148,35 +151,35 @@ namespace Adriana0._3
             // mnuCut
             // 
             this.mnuCut.Name = "mnuCut";
-            this.mnuCut.Size = new System.Drawing.Size(181, 26);
+            this.mnuCut.Size = new System.Drawing.Size(142, 26);
             this.mnuCut.Text = "Cu&t";
             this.mnuCut.Click += new System.EventHandler(this.mnuCut_Click);
             // 
             // mnuCopy
             // 
             this.mnuCopy.Name = "mnuCopy";
-            this.mnuCopy.Size = new System.Drawing.Size(181, 26);
+            this.mnuCopy.Size = new System.Drawing.Size(142, 26);
             this.mnuCopy.Text = "&Copy";
             this.mnuCopy.Click += new System.EventHandler(this.mnuCopy_Click);
             // 
             // mnuPaste
             // 
             this.mnuPaste.Name = "mnuPaste";
-            this.mnuPaste.Size = new System.Drawing.Size(181, 26);
+            this.mnuPaste.Size = new System.Drawing.Size(142, 26);
             this.mnuPaste.Text = "&Paste";
             this.mnuPaste.Click += new System.EventHandler(this.mnuPaste_Click);
             // 
             // mnuDelete
             // 
             this.mnuDelete.Name = "mnuDelete";
-            this.mnuDelete.Size = new System.Drawing.Size(181, 26);
+            this.mnuDelete.Size = new System.Drawing.Size(142, 26);
             this.mnuDelete.Text = "&Delete";
             this.mnuDelete.Click += new System.EventHandler(this.mnuDelete_Click);
             // 
             // mnuSelectAll
             // 
             this.mnuSelectAll.Name = "mnuSelectAll";
-            this.mnuSelectAll.Size = new System.Drawing.Size(181, 26);
+            this.mnuSelectAll.Size = new System.Drawing.Size(142, 26);
             this.mnuSelectAll.Text = "&SelectAll";
             this.mnuSelectAll.Click += new System.EventHandler(this.mnuSelectAll_Click);
             // 
@@ -194,7 +197,7 @@ namespace Adriana0._3
             this.mnuFont.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.FontBox});
             this.mnuFont.Name = "mnuFont";
-            this.mnuFont.Size = new System.Drawing.Size(181, 26);
+            this.mnuFont.Size = new System.Drawing.Size(131, 26);
             this.mnuFont.Text = "Font…";
             this.mnuFont.Click += new System.EventHandler(this.mnuFont_Click);
             // 
@@ -230,7 +233,7 @@ namespace Adriana0._3
             this.mnuColor.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fontSt});
             this.mnuColor.Name = "mnuColor";
-            this.mnuColor.Size = new System.Drawing.Size(181, 26);
+            this.mnuColor.Size = new System.Drawing.Size(131, 26);
             this.mnuColor.Text = "Color…";
             this.mnuColor.Click += new System.EventHandler(this.mnuColor_Click);
             // 
@@ -310,23 +313,54 @@ namespace Adriana0._3
             // richTextBox1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(387, 0);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(9, 9);
             this.richTextBox1.TabIndex = 3;
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(475, 2);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(98, 21);
+            this.checkBox1.TabIndex = 5;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(608, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(717, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "label1";
+            // 
             // Frmmain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frmmain";
             this.Text = "NotepadC#";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -370,6 +404,9 @@ namespace Adriana0._3
         private System.Windows.Forms.ToolStripComboBox FontBox;
         private System.Windows.Forms.ToolStripComboBox fontSt;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
