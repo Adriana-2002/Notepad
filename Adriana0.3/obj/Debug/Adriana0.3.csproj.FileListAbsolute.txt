@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\Adriana0.3\Adriana0.3\bin\Debug\Adriana0.3.exe.config
+C:\Users\User\source\repos\Adriana0.3\Adriana0.3\bin\Debug\Adriana0.3.exe
+C:\Users\User\source\repos\Adriana0.3\Adriana0.3\bin\Debug\Adriana0.3.pdb
+C:\Users\User\source\repos\Adriana0.3\Adriana0.3\obj\Debug\Adriana0.3.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Adriana0.3\Adriana0.3\obj\Debug\Adriana0._3.blank.resources
+C:\Users\User\source\repos\Adriana0.3\Adriana0.3\obj\Debug\Adriana0._3.Frmmain.resources
+C:\Users\User\source\repos\Adriana0.3\Adriana0.3\obj\Debug\Adriana0._3.Properties.Resources.resources
+C:\Users\User\source\repos\Adriana0.3\Adriana0.3\obj\Debug\Adriana0.3.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Adriana0.3\Adriana0.3\obj\Debug\Adriana0.3.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Adriana0.3\Adriana0.3\obj\Debug\Adriana0.3.exe
+C:\Users\User\source\repos\Adriana0.3\Adriana0.3\obj\Debug\Adriana0.3.pdb
+C:\Users\Адриана\Desktop\Новая папка (2)\Adriana0.3\bin\Debug\Adriana0.3.exe.config
+C:\Users\Адриана\Desktop\Новая папка (2)\Adriana0.3\obj\Debug\Adriana0.3.exe
+C:\Users\Адриана\Desktop\Новая папка (2)\Adriana0.3\obj\Debug\Adriana0.3.pdb
